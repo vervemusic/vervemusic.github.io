@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The South Hadley Mandolin Orchestra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 16px; margin: 24px 0 0; }
+      .x-gallery figure { margin: 0; }
+      .x-gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r-m); background: var(--fill-tertiary); }
+      .x-gallery figcaption { font-size: var(--size-caption); color: var(--text-secondary); padding: 8px 4px 0; }
+      .x-pano { margin: 24px 0 0; }
+      .x-pano img { display: block; width: 100%; height: auto; border-radius: var(--r-l); background: var(--fill-tertiary); }
+      .x-pano figcaption { font-size: var(--size-caption); color: var(--text-secondary); padding: 10px 4px 0; }
+      .x-video { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: var(--r-l); background: var(--fill-tertiary); margin: 0 0 12px; }
+      .x-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    </style>
+  </head>
+  <body>
+    <div class="page" id="top">
+      <main class="main">
+        <section class="hero">
+          <img class="hero__img" src="hero_concert.jpg" alt="The full orchestra in concert before an audience" />
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Mandolin New England, 2014 to 2020</p>
+            <h1>The South Hadley Mandolin Orchestra</h1>
+            <p class="hero__sub">Mandolins, mandolas, mandocellos and basses, playing Bach and Mozart in the halls of the Pioneer Valley.</p>
+          </div>
+          <p class="hero__credit">The full orchestra in concert</p>
+        </section>
+
+        <section class="section" id="story" data-nav="Our story">
+          <div class="head">
+            <p class="head__eyebrow">Our story</p>
+            <h2>An old American tradition, kept going from 2014 to 2020.</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <p class="timeline__when">Early 1900s</p>
+              <div class="timeline__what">
+                <p>Gibson sent teacher-agents to towns across America to teach, sell and organize mandolin orchestras. They recruited violinists, since the mandolin is tuned like a violin.</p>
+                <p>The craze faded in the 1920s as the ukulele took over.</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline__when">1990s</p>
+              <div class="timeline__what"><strong>Roots.</strong> Adam led earlier mandolin orchestras, the Western Mass Mandolin Orchestra and a group in Keene, New Hampshire, while teaching there.</div>
+            </li>
+            <li>
+              <p class="timeline__when">Feb 2014</p>
+              <div class="timeline__what">
+                <p>The South Hadley Mandolin Orchestra holds its first rehearsal at Sweet Music Studio, formed at the urging of Adam's students. Nine members: seven mandolins, a mandola and a mandocello.</p>
+                <p>The Classical Mandolin Society of America said it was likely the only mandolin orchestra in the Pioneer Valley. No audition, no fee to join.</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline__when">Mid-2010s</p>
+              <div class="timeline__what">We organized as the nonprofit Mandolin New England.</div>
+            </li>
+            <li>
+              <p class="timeline__when">Jan 17, 2015</p>
+              <div class="timeline__what">
+                <p>7 p.m. at South Hadley Town Hall. The 11-piece orchestra, rehearsing since June, was joined by Rhode Island's L'Esperance Mandolin Ensemble and Northampton's Mando Paradiso.</p>
+                <p>Bach's Brandenburg Concerto No. 3, chamber works by modern composers, and "Jugoslavia" performed by L'Esperance.</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline__when">Aug 2015</p>
+              <div class="timeline__what">Our first public performance of the first movement of Mozart's Eine kleine Nachtmusik, at the Porter-Phelps-Huntington house in Hadley.</div>
+            </li>
+            <li>
+              <p class="timeline__when">Oct 4, 2015</p>
+              <div class="timeline__what">
+                <p>First Sunday Concert at the Renaissance Center, UMass Amherst, billed as the Springfield Mandolin Orchestra. Players aged 30 to 93, student and professional, from western Massachusetts and Rhode Island, rehearsing Mondays at Sweet Music Studio in Granby.</p>
+                <ul>
+                  <li>A talk on mandolins in western Mass by Will Melton, the mandola chair and former UMass Director of Strategic Partnerships, then instrument demonstrations</li>
+                  <li>An Anthony Holborne suite: "Teares of the Muses", "Heigh Ho Holiday", "The Night Watch", "Lullabie"</li>
+                  <li>Vivaldi's "La Folia"</li>
+                  <li>Bach's Brandenburg Concerto No. 3</li>
+                </ul>
+                <p>Afterward the audience came up to try the instruments.</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline__when">Mar 4, 2017</p>
+              <div class="timeline__what">
+                <p>7 p.m. in the sanctuary of the First Congregational Church, South Hadley, which also gave us rehearsal and class space. Joined by Mando Paradiso and members of L'Esperance.</p>
+                <ul>
+                  <li>Mozart's Eine kleine Nachtmusik, complete</li>
+                  <li>Irish melodies for orchestra: Percy Grainger's "Molly on the Shore", "Rocky Road to Dublin" arranged by Jim Dalton, and Van Morrison's "Moon Dance"</li>
+                  <li>The first complete performance of "Strinnenia" by Michael Mayerfield Bell, with its new third movement imitating bird calls</li>
+                  <li>The premiere of "Rags, Riffs and Reveries" by Victor Kioulaphides, commissioned by Barbara and Joe Blumenthal for the 100th birthday of Barbara's 1916 Gibson A-Junior</li>
+                  <li>Two pieces by Jim Armenti, played by Mando Paradiso</li>
+                </ul>
+                <p>Tickets <span class="pill">$12 advance</span> <span class="pill">$15 at the door</span></p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline__when">2020</p>
+              <div class="timeline__what">COVID stopped our rehearsals, and the orchestra never came back.</div>
+            </li>
+          </ol>
+          <p class="fineprint">At times we were also billed as the Mandolin Orchestra of South Hadley and the Springfield Mandolin Orchestra.</p>
+          <div class="cards">
+            <div>
+              <p class="quote">"The efforts of mandolin enthusiasts like Adam Sweet have kept the tradition and musical heritage alive."</p>
+              <p class="fineprint"><a class="link" href="https://www.mandozine.com/SoHadleyMandoOrch/index.html" target="_blank" rel="noopener">Mandozine</a>, 2014</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="watch" data-nav="Watch">
+          <div class="head">
+            <h2>Watch: South Hadley Town Hall, January 17, 2015</h2>
+          </div>
+          <div class="x-video">
+            <iframe src="https://drive.google.com/file/d/1pP_Ppz4b-4TEKLA4fujI_zmbAtk7ifZbZg/preview" title="South Hadley Mandolin Orchestra at South Hadley Town Hall, January 17, 2015" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+          <p><a class="link" href="https://drive.google.com/file/d/1pP_Ppz4b-4TEKLA4fujI_zmbAtk7ifZbZg/view?usp=sharing" target="_blank" rel="noopener">Watch on Google Drive</a></p>
+        </section>
+
+        <section class="section" id="press" data-nav="Press">
+          <div class="head">
+            <p class="head__eyebrow">In the press</p>
+            <h2>"Double the strings: Mandolin orchestra forms in South Hadley"</h2>
+            <p class="head__sub">Gena Mangiaratti, Daily Hampshire Gazette, March 24, 2014.</p>
+          </div>
+          <div class="cards">
+            <div>
+              <p class="quote">"The big thrill of playing in an orchestra is being in the middle of the sound. Being in the middle of acoustic instruments, playing harmonies in split-second time — it's a spiritual experience."</p>
+              <p class="fineprint">Will Melton, mandola</p>
+            </div>
+            <div>
+              <p class="quote">"I want it to be a fun community thing that has a life of its own."</p>
+              <p class="fineprint">Adam Sweet</p>
+            </div>
+            <div>
+              <p class="quote">"All you really need is a mandolin, an ability to read music, and an interest in playing classical music in a group."</p>
+              <p class="fineprint">Benjamin Levy, member</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="press-2015">
+          <div class="head">
+            <p class="head__eyebrow">In the press</p>
+            <h2>"Mandolin Orchestra of South Hadley to perform Saturday"</h2>
+            <p class="head__sub">Ken Maiuri's Clubland column, Daily Hampshire Gazette, January 14, 2015.</p>
+          </div>
+          <div class="cards">
+            <div>
+              <p class="quote">A group of mandolins sounds like a "harpsichord from heaven."</p>
+              <p class="fineprint">Adam Sweet</p>
+            </div>
+            <div>
+              <p class="quote">"I can teach you how to read music in 20 minutes, how to hold the instrument and play two chords in another 20 and you can be jamming with your friends by the end of the day. How is that not inspiring?"</p>
+              <p class="fineprint">Adam Sweet</p>
+            </div>
+            <div>
+              <p class="quote">"There's nothing more daring than playing a mandolin solo in concert. And we want to make that simple and accessible, because it's great fun, too."</p>
+              <p class="fineprint">Adam Sweet</p>
+            </div>
+            <div>
+              <p class="quote">"Depending on the attack, the sounds can take you to the hollows of western Virginia, a café outside Naples, or the highlands of Scotland."</p>
+              <p class="fineprint">Will Melton, mandola</p>
+            </div>
+            <div>
+              <p class="quote">"The mandolin is truly an instrument for life."</p>
+              <p>One player coming to that concert was in her 90s; she bought her first and only mandolin in 1948.</p>
+              <p class="fineprint">Will Melton, mandola</p>
+            </div>
+          </div>
+          <p class="fineprint">Will played jug band music in the '60s, returned to the mandolin in 2002 after hearing the Providence Mandolin Orchestra, studied with Josh Bell, and joined Adam's orchestra after moving to the Valley for a job at UMass Amherst.</p>
+        </section>
+
+        <section class="section" id="music" data-nav="Music">
+          <div class="head">
+            <p class="head__eyebrow">What we played</p>
+            <h2>The classics, arranged for mandolins, and music of our own.</h2>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>J.S. Bach</h3>
+              <ul>
+                <li>Brandenburg Concerto No. 3, arranged for mandolin orchestra</li>
+                <li>Brandenburg Concerto No. 6, arranged for mandolins</li>
+              </ul>
+            </div>
+            <div>
+              <h3>W.A. Mozart</h3>
+              <ul>
+                <li>The "Hunt" Quartet, arranged for orchestra</li>
+                <li>Eine kleine Nachtmusik, arranged for orchestra; played complete on March 4, 2017</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Antonio Vivaldi</h3>
+              <ul>
+                <li>"La Folia"</li>
+              </ul>
+              <p>In one piece two mandolas covered the viola parts: Keith Higginson on first, and Adam on second, playing a 1916 Gibson mandola.</p>
+            </div>
+            <div>
+              <h3>Anthony Holborne</h3>
+              <p>A suite: "Teares of the Muses", "Heigh Ho Holiday", "The Night Watch", "Lullabie".</p>
+            </div>
+            <div>
+              <h3>New music</h3>
+              <ul>
+                <li>Michael Mayerfield Bell, "Strinnenia", a suite named for the Balkan festival of the birds' spring return (Michael is the brother of L'Esperance director Josh Bell)</li>
+                <li>Victor Kioulaphides, "Rags, Riffs and Reveries"</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Irish melodies</h3>
+              <ul>
+                <li>"Molly on the Shore"</li>
+                <li>"Rocky Road to Dublin"</li>
+                <li>"Moon Dance"</li>
+              </ul>
+            </div>
+          </div>
+          <div class="prose"><p>We had a blast.</p></div>
+        </section>
+
+        <section class="section" id="halls" data-nav="Halls">
+          <div class="head">
+            <p class="head__eyebrow">Where we played</p>
+            <h2>Free concerts across western Massachusetts and Rhode Island.</h2>
+            <p class="head__sub">We asked our audiences to become Supporting Members with a donation.</p>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>Halls we played</h3>
+              <ul>
+                <li>Porter-Phelps-Huntington Museum, Hadley</li>
+                <li>The Renaissance Center at UMass Amherst</li>
+                <li>Bowker Auditorium, UMass</li>
+                <li>The Academy of Music, Northampton</li>
+                <li>Center Church, South Hadley</li>
+                <li>First Congregational Church, South Hadley</li>
+                <li>South Hadley Town Hall</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="teaching" data-nav="Teaching">
+          <div class="head">
+            <p class="head__eyebrow">More than concerts</p>
+            <h2>We taught players of every age and level.</h2>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>Learning to read</h3>
+              <p>Many of our players played by ear, and came to us to learn to read the vast mandolin and violin repertoire.</p>
+            </div>
+            <div>
+              <h3>Borrow a Mandolin</h3>
+              <p>We loaned donated instruments to anyone who wanted to play.</p>
+            </div>
+            <div>
+              <h3>Student Members</h3>
+              <p>Violin, viola, cello and bass players could join as Student Members with a play-to-own instrument.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="album" data-nav="Album">
+          <div class="head">
+            <p class="head__eyebrow">Photo album</p>
+            <h2>Concerts, rehearsals and the people in them.</h2>
+          </div>
+          <figure class="band">
+            <img src="porter_phelps.jpg" alt="The orchestra posed for a group portrait on the lawn at Porter-Phelps-Huntington" />
+            <figcaption>The orchestra on the lawn at Porter-Phelps-Huntington, Hadley</figcaption>
+          </figure>
+          <figure class="band">
+            <img src="adam_will_melton.jpg" alt="Adam on mandolin beside Will Melton on mandola, with the basses and mandocellos" />
+            <figcaption>Adam on mandolin beside Will Melton on mandola, with the basses behind and the mandocellos to Adam's left.</figcaption>
+          </figure>
+          <div class="x-gallery">
+            <figure><img src="group_south_hadley.jpg" alt="Players outdoors in front of the Old Firehouse in South Hadley" /><figcaption>Playing outside the Old Firehouse in South Hadley</figcaption></figure>
+            <figure><img src="concert_0020.jpg" alt="The orchestra in concert in a brick hall in Greenfield" /><figcaption>Greenfield concert</figcaption></figure>
+            <figure><img src="concert_0024.jpg" alt="The orchestra in concert in a brick hall in Greenfield" /><figcaption>Greenfield concert</figcaption></figure>
+            <figure><img src="concert_0026.jpg" alt="The orchestra in concert in a brick hall in Greenfield" /><figcaption>Greenfield concert</figcaption></figure>
+            <figure><img src="concert_0029.jpg" alt="Mandolins up close at the Greenfield concert" /><figcaption>Mandolins up close, Greenfield concert</figcaption></figure>
+            <figure><img src="strings_for_albert.jpg" alt="Strings for Albert" /><figcaption>Strings for Albert</figcaption></figure>
+            <figure><img src="adam_bw.jpg" alt="Adam at rehearsal, black and white" /><figcaption>Adam at rehearsal</figcaption></figure>
+            <figure><img src="rehearsal_2015_04.jpg" alt="The orchestra rehearsing in April 2015" /><figcaption>Rehearsal, April 2015</figcaption></figure>
+            <figure><img src="rehearsal_2015_05.jpg" alt="The orchestra rehearsing in May 2015" /><figcaption>Rehearsal, May 2015</figcaption></figure>
+            <figure><img src="al_barten_zach_autio.jpg" alt="Al Barten and Zach Autio at rehearsal" /><figcaption>Al Barten and Zach Autio at rehearsal</figcaption></figure>
+            <figure><img src="al_barten.jpg" alt="Portrait of Al Barten" /><figcaption>Al Barten</figcaption></figure>
+            <figure><img src="vintage_mandolins.jpg" alt="Vintage mandolin-family instruments on a table" /><figcaption>Vintage mandolin-family instruments laid out before a rehearsal</figcaption></figure>
+          </div>
+          <figure class="x-pano">
+            <img src="springfield_2014.jpg" alt="Panorama of the Springfield Mandolin Orchestra, August 9, 2014" />
+            <figcaption>Springfield Mandolin Orchestra, August 9, 2014</figcaption>
+          </figure>
+        </section>
+
+        <section class="section" id="write" data-nav="Write">
+          <div class="head"><h2>Played with us?</h2></div>
+          <aside class="callout" aria-label="Share your memories">
+            <p class="callout__lead"><strong>Write to Adam at <a class="link" href="mailto:adamrsweet@outlook.com">adamrsweet@outlook.com</a></strong> with your memories and photos.</p>
+            <a class="btn" href="mailto:adamrsweet@outlook.com">Email Adam</a>
+          </aside>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>© 2026 Adam Sweet</p>
+        <p><a class="link" href="https://vervemusic.github.io/" target="_blank" rel="noopener">More from Adam at vervemusic.github.io</a></p>
+        <nav aria-label="Back to sections" data-auto></nav>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
